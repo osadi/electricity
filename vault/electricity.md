@@ -2,7 +2,7 @@
 id: 786f5d3a-5876-4314-8639-ad96b06e8d79
 title: Electricity
 desc: ""
-updated: 1616531830801
+updated: 1616573493616
 created: 1616001666376
 ---
 
@@ -143,45 +143,35 @@ https://www.elektronikbox.de/shop/index.php?main_page=product_info&cPath=10&prod
 
 ## Fuse Box
 
-| Name                   | Aptiv    | Waytek              | Mouser                     | Image             |
-| ---------------------- | -------- | ------------------- | -------------------------- | ----------------- |
-| Housing                | 12059573 | [38076][housing-w]  | [829-12059573][housing-m]  | ![][housing-img]  |
-| Cap Tall               |          | [38079][cap-tall-w] | [??][cap-tall-m]           | ![][cap-tall-img] |
-| Terminal               | 12077411 | [30037][terminal-w] | [829-12077411][terminal-m] | ![][terminal-img] |
-| Seal                   | 15324982 | [39000][seal-w]     | [829-15324982][seal-m]     | ![][seal-img]     |
-| Tpa                    | 12059195 | [38077][tpa-w]      | [829-12059195][tpa-m]      | ![][tpa-img]      |
-| Bracket Offset Screw   | 15495826 | [38084][bos-w]      | [829-15495826][bos-m]      | ![][bos-img]      |
-| Bracket straight clip  | 15495796 | [38080][bsc-w]      | [829-15495796][bsc-m]      | ![][bsc-img]      |
-| Bracket 90 degree clip | 15495810 | [38081][bdc-w]      | [829-15495810][bdc-m]      | ![][bdc-img]      |
-| Bracket Tree           | 12110783 | [38082][bt-w]       | [829-12110783][bt-m]       | ![][bt-img]       |
+| Name                   | Aptiv    | Waytek              | Mouser                     | Image                                                 |
+| ---------------------- | -------- | ------------------- | -------------------------- | ----------------------------------------------------- |
+| Housing                | 12059573 | [38076][housing-w]  | [829-12059573][housing-m]  | ![](/assets/images/2021-03-19-14-39-18.png#thumbnail) |
+| Cap Tall               |          | [38079][cap-tall-w] | N/A                        | ![](/assets/images/2021-03-19-14-52-09.png#thumbnail) |
+| Terminal               | 12077411 | [30037][terminal-w] | [829-12077411][terminal-m] | ![](/assets/images/2021-03-19-14-54-54.png#thumbnail) |
+| Seal                   | 15324982 | [39000][seal-w]     | [829-15324982][seal-m]     | ![](/assets/images/2021-03-19-14-56-42.png#thumbnail) |
+| Tpa                    | 12059195 | [38077][tpa-w]      | [829-12059195][tpa-m]      | ![](/assets/images/2021-03-19-14-59-53.png#thumbnail) |
+| Bracket Offset Screw   | 15495826 | [38084][bos-w]      | [829-15495826][bos-m]      | ![](/assets/images/2021-03-19-15-01-12.png#thumbnail) |
+| Bracket straight clip  | 15495796 | [38080][bsc-w]      | [829-15495796][bsc-m]      | ![](/assets/images/2021-03-19-15-02-28.png#thumbnail) |
+| Bracket 90 degree clip | 15495810 | [38081][bdc-w]      | [829-15495810][bdc-m]      | ![](/assets/images/2021-03-19-15-03-52.png#thumbnail) |
+| Bracket Tree           | 12110783 | [38082][bt-w]       | [829-12110783][bt-m]       | ![](/assets/images/2021-03-19-15-05-15.png#thumbnail) |
 
 [housing-w]: https://www.waytekwire.com/item/38076/Aptiv-12059573-Metri-Pack-280-Series-6-Way/
 [housing-m]: https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/12059573?qs=%2Fha2pyFadujwxwQwxO%252BnOp6dpIX4OxN5B6R0knN7Do8%3D
-[housing-img]: /assets/images/2021-03-19-14-39-18.png#thumbnail
 [cap-tall-w]: https://www.waytekwire.com/item/38079/Extended-Clear-Cap-for-Splice-Pack-System-38079/
-[cap-tall-m]: ??
-[cap-tall-img]: /assets/images/2021-03-19-14-52-09.png#thumbnail
 [terminal-w]: https://www.waytekwire.com/item/30037/Aptiv-12077411-Metri-Pack-Female-Tanged/
 [terminal-m]: https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/12077411-L?qs=DlE0rdXB%2FL0DXgDs8GPLbg%3D%3D
-[terminal-img]: /assets/images/2021-03-19-14-54-54.png#thumbnail
 [seal-w]: https://www.waytekwire.com/item/39000/Aptiv-15324982-Metri-Pack-280/
 [seal-m]: https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/15324982?qs=%2Fha2pyFaduiCsbKAemWTGsXfg0%2FZmpSrvSLzTcMMsZw%3D
-[seal-img]: /assets/images/2021-03-19-14-56-42.png#thumbnail
 [tpa-w]: https://www.waytekwire.com/item/38077/Aptiv-12059195-Metri-Pack-280-Series-6-Contact/
 [tpa-m]: https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/12059195?qs=sGAEpiMZZMvlX3nhDDO4APW7j5MP5o6q5HgYqFD2vmA%3D
-[tpa-img]: /assets/images/2021-03-19-14-59-53.png#thumbnail
 [bos-w]: https://www.waytekwire.com/item/38084/Aptiv-15495826-Offset-Mounting-Clip/
 [bos-m]: https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/15495826?qs=%2Fha2pyFadugkgPIRWrgmz6zjAU9oXJqmQobALfcQBZQ%3D
-[bos-img]: /assets/images/2021-03-19-15-01-12.png#thumbnail
 [bsc-w]: https://www.waytekwire.com/item/38080/Aptiv-15495796-Straight-In-Mounting-Clip/
 [bsc-m]: https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/15495796?qs=%2Fha2pyFaduhhA9DyAm2Uw8Autf6zTkJgn4VAloMwVgE%3D
-[bsc-img]: /assets/images/2021-03-19-15-02-28.png#thumbnail
 [bdc-w]: https://www.waytekwire.com/item/38081/Aptiv-15495810-90-Degree-In-Mounting-Clip/
 [bdc-m]: https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/15495810?qs=%2Fha2pyFaduiPpyB03Kgg7QbK2KYR3nfv8T5mkpbvwMw%3D
-[bdc-img]: /assets/images/2021-03-19-15-03-52.png#thumbnail
 [bt-w]: https://www.waytekwire.com/item/38082/Aptiv-12110783-Tree-Mount-Clip/
 [bt-m]: https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/12110783?qs=sGAEpiMZZMvlX3nhDDO4APW7j5MP5o6q3zMUSxI4KS0%3D
-[bt-img]: /assets/images/2021-03-19-15-05-15.png#thumbnail
 
 Cap Tall -- Bara US? https://www.us-wire-harness.com/locations/
 Printa -- https://www.waytekwire.com/datasheet/38078.jpg

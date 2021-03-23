@@ -1,17 +1,18 @@
 version: 1
 vaults:
-    -
-        fsPath: vault
+  - fsPath: vault
 useFMTitle: true
 site:
-    copyAssets: true
-    siteHierarchies:
-        - root
-    siteRootDir: docs
-    usePrettyRefs: true
-    title: Dendron
-    description: Personal knowledge space
-    duplicateNoteBehavior:
-        action: useVault
-        payload:
-            - vault
+  copyAssets: true
+  siteHierarchies:
+    - root
+  siteRootDir: docs
+  siteUrl: https://osadi.github.io
+  assetsPrefix: "electricity"
+  usePrettyRefs: true
+  title: Dendron
+  description: Personal knowledge space
+  duplicateNoteBehavior:
+    action: useVault
+    payload:
+      - vault
