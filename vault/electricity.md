@@ -2,13 +2,17 @@
 id: 786f5d3a-5876-4314-8639-ad96b06e8d79
 title: Electricity
 desc: ""
-updated: 1616573493616
+updated: 1616746931011
 created: 1616001666376
 ---
 
 <style>
 img[src*="#thumbnail"] {
 width:150px;
+}
+
+img[src*="#medium"] {
+width:550px;
 }
 </style>
 
@@ -60,6 +64,8 @@ https://www.svetsmaskinservice.se/PRI/
 ## D-Box
 
 https://www.elektronikbox.de/shop/index.php?main_page=product_info&cPath=10&products_id=3
+
+![](/assets/images/2021-03-26-09-12-26.png#medium)
 
 | Data                                          |
 | --------------------------------------------- | ----------------------------------------------- |
@@ -178,6 +184,8 @@ Printa -- https://www.waytekwire.com/datasheet/38078.jpg
 
 ## Dyna 2000i
 
+![](/assets/images/2021-03-26-09-03-01.png#medium)
+
 #### Spark plug wires
 
 - **Use**: Any type of carbon suppression core spark plug wires. The factory Harley wires should work fine.
@@ -189,4 +197,14 @@ For all dual fire and single fire applications, you must use coils that have a p
 
 #### Power
 
-The white wire, with ignition on, can be spliced anywhere.. I think.
+The white wire can be connected to any source of swtiched +12V.
+
+## Velona 80
+
+![](/assets/images/2021-03-26-08-59-21.png#medium)
+
+| Description                 | Volts / Amps |
+| --------------------------- | ------------ |
+| Input voltage               | 13.5V        |
+| Stepper motor and backlight | ~75ma        |
+| Indicator light (each)      | 7ma          |
