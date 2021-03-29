@@ -2,7 +2,7 @@
 id: 786f5d3a-5876-4314-8639-ad96b06e8d79
 title: Electricity
 desc: ""
-updated: 1616746931011
+updated: 1617008205691
 created: 1616001666376
 ---
 
@@ -86,26 +86,12 @@ https://www.elektronikbox.de/shop/index.php?main_page=product_info&cPath=10&prod
 
 ## Mizu
 
-| 4 Pins  | Male 522660411 / 501478100                   | Female 522130411 / 501488100                 |
-| ------- | -------------------------------------------- | -------------------------------------------- |
-| Mouser  | [house][mz4m-mouser] / [crimp][mz4mc-mouser] | [house][mz4f-mouser] / [crimp][mz4fc-mouser] |
-| Elfa    |                                              |                                              |
-| Digikey | [house][mz4m-digikey]                        | [house][mz4f-digikey]                        |
-| Farnell | [house][mz4m-farnell]                        | [house][mz4f-farnell]                        |
-
-| 3 Pins  | Male 522660311 / 501478100                   | Female 522130311 / 501488100                 |
-| ------- | -------------------------------------------- | -------------------------------------------- |
-| Mouser  | [house][mz3m-mouser] / [crimp][mz3mc-mouser] | [house][mz3f-mouser] / [crimp][mz3fc-mouser] |
-| Elfa    | [house][mz3m-elfa]                           | [house][mz3f-elfa]                           |
-| Digikey | [house][mz3m-digikey]                        | [house][mz3f-digikey]                        |
-| Farnell | [house][mz3m-farnell]                        | [house][mz3f-farnell]                        |
-
-| 2 Pins  | Male 522660211 / 501478100                   | Female 522130211 / 501488100                 |
-| ------- | -------------------------------------------- | -------------------------------------------- |
-| Mouser  | [house][mz2m-mouser] / [crimp][mz2mc-mouser] | [house][mz2f-mouser] / [crimp][mz2fc-mouser] |
-| Elfa    | [house][mz2m-elfa]                           | [house][mz2f-elfa]                           |
-| Digikey | [house][mz2m-digikey]                        | [house][mz2f-digikey]                        |
-| Farnell | [house][mz2m-farnell]                        | [house][mz2f-farnell]                        |
+| 4 Pins  | Male 522660411        | Female 522130411      |
+| ------- | --------------------- | --------------------- |
+| Mouser  | [house][mz4m-mouser]  | [house][mz4f-mouser]  |
+| Elfa    |                       |                       |
+| Digikey | [house][mz4m-digikey] | [house][mz4f-digikey] |
+| Farnell | [house][mz4m-farnell] | [house][mz4f-farnell] |
 
 [mz4m-mouser]: https://www.mouser.se/ProductDetail/Molex/52266-0411?qs=%2Fha2pyFadugDpK67EghYqfsbf2wY361BET2%252BXZ%2FQ2utWvQ3eIlOBBg%3D%3D
 [mz4m-digikey]: https://www.digikey.se/short/n25vqqfn
@@ -113,8 +99,14 @@ https://www.elektronikbox.de/shop/index.php?main_page=product_info&cPath=10&prod
 [mz4f-mouser]: https://www.mouser.se/ProductDetail/Molex/52213-0411?qs=%2Fha2pyFadujBEPPwzN7XsTowyTrzkzfKLkBB0Q3tdbOxplXSHAkH9w%3D%3D
 [mz4f-digikey]: https://www.digikey.se/short/fc444wm0
 [mz4f-farnell]: https://se.farnell.com/molex/522130411/2-5-water-proof-conn-rec-housing/dp/3039543
-[mz4mc-mouser]: https://www.mouser.se/ProductDetail/Molex/50147-8100?qs=%2Fha2pyFadujnY9k%2F4ENB05H6f6IqHNUKPBz2xSFomJg%3D
-[mz4fc-mouser]: https://www.mouser.se/ProductDetail/Molex/50148-8100?qs=%2Fha2pyFadugbVLr7o5XIXnBDatzMDj4N%252BkehEBzk0l4%3D
+
+| 3 Pins  | Male 522660311        | Female 522130311      |
+| ------- | --------------------- | --------------------- |
+| Mouser  | [house][mz3m-mouser]  | [house][mz3f-mouser]  |
+| Elfa    | [house][mz3m-elfa]    | [house][mz3f-elfa]    |
+| Digikey | [house][mz3m-digikey] | [house][mz3f-digikey] |
+| Farnell | [house][mz3m-farnell] | [house][mz3f-farnell] |
+
 [mz3m-mouser]: https://www.mouser.se/ProductDetail/Molex/52266-0311?qs=%2Fha2pyFaduhGi9DSraUhSemfLhq2kQFvDj36eqbGKvE%3D
 [mz3m-elfa]: https://www.elfa.se/en/mizu-p25-waterproof-splash-proof-plug-housing-poles-rows-5mm-pitch-molex-52266-0311/p/14418719
 [mz3m-digikey]: https://www.digikey.se/short/3399mzzz
@@ -123,8 +115,14 @@ https://www.elektronikbox.de/shop/index.php?main_page=product_info&cPath=10&prod
 [mz3f-elfa]: https://www.elfa.se/en/mizu-p25-waterproof-splash-proof-receptacle-housing-poles-rows-5mm-pitch-molex-52213-0311/p/14418722?q=&pos=3&origPos=3&origPageSize=50
 [mz3f-digikey]: https://www.digikey.se/short/nz9p3fbj
 [mz3f-farnell]: https://se.farnell.com/molex/52213-0311/connector-housing-rcpt-3pos/dp/2284344
-[mz3mc-mouser]: https://www.mouser.se/ProductDetail/Molex/50147-8100?qs=%2Fha2pyFadugR8O3MxQkLxz5skfbDMwdvUBvTporUlLg%3D
-[mz3fc-mouser]: https://www.mouser.se/ProductDetail/Molex/50148-8100?qs=%2Fha2pyFadugbVLr7o5XIXnBDatzMDj4N%252BkehEBzk0l4%3D
+
+| 2 Pins  | Male 522660211        | Female 522130211      |
+| ------- | --------------------- | --------------------- |
+| Mouser  | [house][mz2m-mouser]  | [house][mz2f-mouser]  |
+| Elfa    | [house][mz2m-elfa]    | [house][mz2f-elfa]    |
+| Digikey | [house][mz2m-digikey] | [house][mz2f-digikey] |
+| Farnell | [house][mz2m-farnell] | [house][mz2f-farnell] |
+
 [mz2m-mouser]: https://www.mouser.se/ProductDetail/Molex/52266-0211?qs=%2Fha2pyFadujXAsbGzschTEBCS06qslbUgGWsvkpXwHQ%3D
 [mz2m-digikey]: https://www.digikey.se/short/qnn40qp2
 [mz2m-elfa]: https://www.elfa.se/en/mizu-p25-waterproof-splash-proof-plug-housing-poles-rows-5mm-pitch-molex-52266-0211/p/14418718
@@ -135,6 +133,30 @@ https://www.elektronikbox.de/shop/index.php?main_page=product_info&cPath=10&prod
 [mz2f-farnell]: https://se.farnell.com/molex/52213-0211/connector-housing-rcpt-2pos/dp/2284343
 [mz2mc-mouser]: https://www.mouser.se/ProductDetail/Molex/50147-8100?qs=%2Fha2pyFadugR8O3MxQkLxz5skfbDMwdvUBvTporUlLg%3D
 [mz2fc-mouser]: https://www.mouser.se/ProductDetail/Molex/50148-8100?qs=%2Fha2pyFadujwSxLYz2hsSe3GMPukIqVq6Tp30Q3n0vg%3D
+
+| Crimp   | Male 501478000 / 501478100                                    | Female 501478000 / 501478100                                  |
+| ------- | ------------------------------------------------------------- | ------------------------------------------------------------- |
+| Mouser  | [501478000][mzmc8000-mouser] / [501478100][mzmc8100-mouser]   | [501478000][mzfc8000-mouser] / [501478100][mzfc8100-mouser]   |
+| Elfa    | [501478000][mzmc8000-elfa] / [501478100][mzmc8100-elfa]       | [501478000][mzfc8000-elfa] / [501478100][mzfc8100-elfa]       |
+| Digikey | [501478000][mzmc8000-digikey] / [501478100][mzmc8100-digikey] | [501478000][mzfc8000-digikey] / [501478100][mzfc8100-digikey] |
+| Farnell | [501478000][mzmc8000-farnell] / [501478100][mzmc8100-farnell] | [501478000][mzfc8000-farnell] / [501478100][mzfc8100-farnell] |
+
+[mzmc8000-mouser]: https://www.mouser.se/ProductDetail/Molex/50147-8100?qs=%2Fha2pyFadujnY9k%2F4ENB05H6f6IqHNUKPBz2xSFomJg%3D
+[mzmc8100-mouser]: https://www.mouser.se/ProductDetail/Molex/50147-8100?qs=/ha2pyFadujnY9k/4ENB05H6f6IqHNUKPBz2xSFomJg=
+[mzfc8000-mouser]: https://www.mouser.se/Search/Refine?Keyword=501478000
+[mzfc8100-mouser]: https://www.mouser.se/ProductDetail/Molex/50148-8100?qs=%2Fha2pyFadugbVLr7o5XIXnBDatzMDj4N%252BkehEBzk0l4%3D
+[mzmc8000-elfa]: https://www.elfa.se/en/crimp-terminal-male-tin-20-22awg-molex-50147-8000/p/14418724
+[mzmc8100-elfa]: https://www.elfa.se/en/crimp-terminal-male-tin-20-22awg-molex-50147-8100/p/30065159
+[mzfc8000-elfa]: https://www.elfa.se/en/crimp-terminal-male-tin-20-22awg-molex-50147-8000/p/14418724
+[mzfc8100-elfa]: https://www.elfa.se/en/crimp-terminal-male-tin-20-22awg-molex-50147-8100/p/30065159
+[mzmc8000-digikey]: https://www.digikey.se/products/sv?keywords=501478000
+[mzmc8100-digikey]: https://www.digikey.se/products/sv?keywords=501478100
+[mzfc8000-digikey]: https://www.digikey.se/products/sv?keywords=501478000
+[mzfc8100-digikey]: https://www.digikey.se/products/sv?keywords=501478100
+[mzmc8000-farnell]: https://se.farnell.com/search?st=501478000
+[mzmc8100-farnell]: https://se.farnell.com/molex/50147-8100/contact-pin-20awg-crimp/dp/3107274
+[mzfc8000-farnell]: https://se.farnell.com/search?st=501478000
+[mzfc8100-farnell]: https://se.farnell.com/molex/50147-8100/contact-pin-20awg-crimp/dp/3107274
 
 **Specs**
 
@@ -208,3 +230,13 @@ The white wire can be connected to any source of swtiched +12V.
 | Input voltage               | 13.5V        |
 | Stepper motor and backlight | ~75ma        |
 | Indicator light (each)      | 7ma          |
+
+Links:
+
+https://ebikes.ca/learn/connectors.html
+
+http://www.cycleterminal.com/
+
+https://www.aliexpress.com/item/32543090000.html?spm=a2g0o.detail.1000023.13.13353cc9u9w04E
+
+https://www.aliexpress.com/item/32861105223.html
