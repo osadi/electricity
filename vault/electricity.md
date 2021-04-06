@@ -2,7 +2,7 @@
 id: 786f5d3a-5876-4314-8639-ad96b06e8d79
 title: Electricity
 desc: ""
-updated: 1617008205691
+updated: 1617700315012
 created: 1616001666376
 ---
 
@@ -240,3 +240,13 @@ http://www.cycleterminal.com/
 https://www.aliexpress.com/item/32543090000.html?spm=a2g0o.detail.1000023.13.13353cc9u9w04E
 
 https://www.aliexpress.com/item/32861105223.html
+
+## Relay
+
+Starter Relay 20A?
+
+https://www.mouser.se/ProductDetail/Song-Chuan/303-1AH-S-D1-12VDC?qs=Z9twEOuL%252B%2FI3EzaNjfzKCA%3D%3D
+
+## Ohms law
+
+![](/assets/images/2021-04-06-10-57-24.png)
