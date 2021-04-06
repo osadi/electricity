@@ -2,7 +2,7 @@
 id: 786f5d3a-5876-4314-8639-ad96b06e8d79
 title: Electricity
 desc: ""
-updated: 1617700315012
+updated: 1617701124109
 created: 1616001666376
 ---
 
@@ -246,6 +246,10 @@ https://www.aliexpress.com/item/32861105223.html
 Starter Relay 20A?
 
 https://www.mouser.se/ProductDetail/Song-Chuan/303-1AH-S-D1-12VDC?qs=Z9twEOuL%252B%2FI3EzaNjfzKCA%3D%3D
+
+## Wiring diagram
+
+![](/assets/images/2021-04-06-11-20-12.png#medium)
 
 ## Ohms law
 
