@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Electricity - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://osadi.github.io/electricity/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://osadi.github.io/electricity/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://osadi.github.io/electricity/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://osadi.github.io/electricity/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+  
+<meta name="description" content="Personal knowledge space">
+<meta name="author" content="">
+
+<link rel="canonical" href="https://osadi.github.io/notes/786f5d3a-5876-4314-8639-ad96b06e8d79.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://osadi.github.io/notes/786f5d3a-5876-4314-8639-ad96b06e8d79.html">
+<meta property="og:description" content="Personal knowledge space">
+<meta property="og:image" content="https://osadi.github.ioundefined">
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="https://osadi.github.io/notes/786f5d3a-5876-4314-8639-ad96b06e8d79.html">
+<meta name="twitter:description" content="Personal knowledge space">
+<meta name="twitter:image" content="https://osadi.github.ioundefined">
+
+
+  <meta property="og:title" content="Electricity - Dendron" />
+  <meta name="twitter:title" content="Electricity - Dendron" />
+  
+</head>
+
+
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://osadi.github.io/electricity" class="site-title lh-tight">
+  Dendron
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://osadi.github.io/electricity">Root</a></li><li class="breadcrumb-nav-list-item">Electricity</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+        
+
+        <script>
+          $(function () {
+            $('[data-toggle="popover"]').popover({html: true})
+          })
+        </script>
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Electricity">
+    
+    <meta itemprop="datePublished" content="2021-03-17T17:21:06+00:00">
+    <meta itemprop="dateModified" content="2021-04-06T09:25:24+00:00">
+
+    <div class="page__inner-wrap">
+
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="electricity"><a aria-hidden="true" class="anchor-heading" href="#electricity"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Electricity</h1>
+<style>
+img[src*="#thumbnail"] {
+width:150px;
+}
+
+img[src*="#medium"] {
+width:550px;
+}
+</style>
+<h2 id="wire-table"><a aria-hidden="true" class="anchor-heading" href="#wire-table"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Wire table</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>AWG Gauge #</th><th>Wire Dia (inches)</th><th>mm^2</th><th>Maximum Current (Amps)</th><th>Note</th></tr></thead><tbody><tr><td>22</td><td>.?</td><td>0.3</td><td>7</td><td>LED</td></tr><tr><td>20</td><td>.032</td><td>0.5</td><td>11</td><td>"</td></tr><tr><td>19</td><td>-</td><td>0.75</td><td>?</td><td>Standard</td></tr><tr><td>18</td><td>.040</td><td>0.8</td><td>16</td><td>Standard</td></tr><tr><td>16</td><td>.050</td><td>1.3</td><td>22</td><td>"</td></tr><tr><td>14</td><td>.064</td><td>2</td><td>32</td><td>Starter, Generator, Ground</td></tr><tr><td>13</td><td>-</td><td>2.5</td><td>15-40 (20)</td><td>"</td></tr><tr><td>12</td><td>.080</td><td>3.3</td><td>41</td><td>"</td></tr><tr><td>10</td><td>.102</td><td></td><td>55</td><td></td></tr><tr><td>8</td><td>.125</td><td></td><td>73</td><td></td></tr><tr><td>6</td><td>.162</td><td></td><td>100</td><td>Battery positive</td></tr><tr><td>-</td><td>-</td><td>16</td><td>-</td><td>"</td></tr><tr><td>4</td><td>.204</td><td></td><td>130</td><td>"</td></tr></tbody></table>
+<h2 id="wires"><a aria-hidden="true" class="anchor-heading" href="#wires"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Wires</h2>
+<h3 id="flry-a--flry-b"><a aria-hidden="true" class="anchor-heading" href="#flry-a--flry-b"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>FLRY-A / FLRY-B</h3>
+<p>All <a href="https://www.conrad.se/sok?search=FLRY-A&#x26;searchType=regular">https://www.conrad.se/sok?search=FLRY-A&#x26;searchType=regular</a></p>
+<p><strong>LED and such</strong>
+22/0.3 -
+20/0.5 -</p>
+<p><strong>Power</strong>
+1.5mm2 - <a href="https://www.conrad.se/p/conrad-components-606216-fordonsledning-flry-b-1-x-150-mm-roed-10-m-606216">https://www.conrad.se/p/conrad-components-606216-fordonsledning-flry-b-1-x-150-mm-roed-10-m-606216</a>
+1.5mm2 - <a href="https://www.conrad.se/p/kbe-1121203-fordonsledning-flry-b-1-x-150-mm-roed-metervara-608914">https://www.conrad.se/p/kbe-1121203-fordonsledning-flry-b-1-x-150-mm-roed-metervara-608914</a></p>
+<p><strong>Starter, Generator, Ground</strong>
+14/2.5 - <a href="https://www.conrad.se/p/conrad-components-605849-fordonsledning-flry-b-1-x-250-mm-svart-5-m-605849">https://www.conrad.se/p/conrad-components-605849-fordonsledning-flry-b-1-x-250-mm-svart-5-m-605849</a></p>
+<p>RKUB - deprecated?</p>
+<h3 id="battery"><a aria-hidden="true" class="anchor-heading" href="#battery"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Battery</h3>
+<p>Cable:
+<a href="https://www.esab.se/se/se/products/arc-welding-equipment/general-supplies-and-accessories/general-supplies/welding-cable.cfm">https://www.esab.se/se/se/products/arc-welding-equipment/general-supplies-and-accessories/general-supplies/welding-cable.cfm</a></p>
+<p>Maybe buy here?
+<a href="https://www.svetsmaskinservice.se/PRI/">https://www.svetsmaskinservice.se/PRI/</a></p>
+<h2 id="d-box"><a aria-hidden="true" class="anchor-heading" href="#d-box"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>D-Box</h2>
+<p><a href="https://www.elektronikbox.de/shop/index.php?main_page=product_info&#x26;cPath=10&#x26;products_id=3">https://www.elektronikbox.de/shop/index.php?main_page=product_info&#x26;cPath=10&#x26;products_id=3</a></p>
+<p><img src="/electricity/assets/images/2021-03-26-09-12-26.png#medium"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Data</th><th></th></tr></thead><tbody><tr><td>Dimensions</td><td>50 mm length x 12,5 mm wide x 52 mm height</td></tr><tr><td>Body material</td><td>shock resistant ABS plastic, waterresist potted</td></tr><tr><td>Case Color</td><td>Black</td></tr><tr><td>Connections</td><td>0,14 qmm for inputs</td></tr><tr><td></td><td>0,75 qmm for power outputs</td></tr><tr><td></td><td>1,5 qmm for main power</td></tr><tr><td>Power consumption in operation</td><td>7 mA</td></tr><tr><td>Maximum temperature</td><td>80 degree Celsius</td></tr><tr><td>Maximum output current</td><td>5 Ampere Head light</td></tr><tr><td></td><td>3 Ampere for other outputs</td></tr><tr><td>Input voltage range</td><td>7 - 18 Volt</td></tr><tr><td>Maximum current of the 12V ignition connector</td><td>20 Ampere</td></tr></tbody></table>
+<h1 id="connectors"><a aria-hidden="true" class="anchor-heading" href="#connectors"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Connectors</h1>
+<h2 id="mizu"><a aria-hidden="true" class="anchor-heading" href="#mizu"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Mizu</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>4 Pins</th><th>Male 522660411</th><th>Female 522130411</th></tr></thead><tbody><tr><td>Mouser</td><td><a href="https://www.mouser.se/ProductDetail/Molex/52266-0411?qs=%2Fha2pyFadugDpK67EghYqfsbf2wY361BET2%252BXZ%2FQ2utWvQ3eIlOBBg%3D%3D">house</a></td><td><a href="https://www.mouser.se/ProductDetail/Molex/52213-0411?qs=%2Fha2pyFadujBEPPwzN7XsTowyTrzkzfKLkBB0Q3tdbOxplXSHAkH9w%3D%3D">house</a></td></tr><tr><td>Elfa</td><td></td><td></td></tr><tr><td>Digikey</td><td><a href="https://www.digikey.se/short/n25vqqfn">house</a></td><td><a href="https://www.digikey.se/short/fc444wm0">house</a></td></tr><tr><td>Farnell</td><td><a href="https://se.farnell.com/molex/522660411/2-5-water-proof-conn-plug-housing/dp/3039546">house</a></td><td><a href="https://se.farnell.com/molex/522130411/2-5-water-proof-conn-rec-housing/dp/3039543">house</a></td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>3 Pins</th><th>Male 522660311</th><th>Female 522130311</th></tr></thead><tbody><tr><td>Mouser</td><td><a href="https://www.mouser.se/ProductDetail/Molex/52266-0311?qs=%2Fha2pyFaduhGi9DSraUhSemfLhq2kQFvDj36eqbGKvE%3D">house</a></td><td><a href="https://www.mouser.se/ProductDetail/Molex/52213-0311?qs=%2Fha2pyFaduj2f5cdwOpa1yVUwHvm5rzP3SpJxt7LRIA%3D">house</a></td></tr><tr><td>Elfa</td><td><a href="https://www.elfa.se/en/mizu-p25-waterproof-splash-proof-plug-housing-poles-rows-5mm-pitch-molex-52266-0311/p/14418719">house</a></td><td><a href="https://www.elfa.se/en/mizu-p25-waterproof-splash-proof-receptacle-housing-poles-rows-5mm-pitch-molex-52213-0311/p/14418722?q=&#x26;pos=3&#x26;origPos=3&#x26;origPageSize=50">house</a></td></tr><tr><td>Digikey</td><td><a href="https://www.digikey.se/short/3399mzzz">house</a></td><td><a href="https://www.digikey.se/short/nz9p3fbj">house</a></td></tr><tr><td>Farnell</td><td><a href="https://se.farnell.com/molex/52266-0311/connector-housing-plug-3pos/dp/2284347">house</a></td><td><a href="https://se.farnell.com/molex/52213-0311/connector-housing-rcpt-3pos/dp/2284344">house</a></td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>2 Pins</th><th>Male 522660211</th><th>Female 522130211</th></tr></thead><tbody><tr><td>Mouser</td><td><a href="https://www.mouser.se/ProductDetail/Molex/52266-0211?qs=%2Fha2pyFadujXAsbGzschTEBCS06qslbUgGWsvkpXwHQ%3D">house</a></td><td><a href="https://www.mouser.se/ProductDetail/Molex/52213-0211?qs=%2Fha2pyFadujqkUMenp4Z8GhK1b%2F0EIb39QPCLPtttvE%3D">house</a></td></tr><tr><td>Elfa</td><td><a href="https://www.elfa.se/en/mizu-p25-waterproof-splash-proof-plug-housing-poles-rows-5mm-pitch-molex-52266-0211/p/14418718">house</a></td><td><a href="https://www.elfa.se/en/mizu-p25-waterproof-splash-proof-receptacle-housing-poles-rows-5mm-pitch-molex-52213-0211/p/14418721">house</a></td></tr><tr><td>Digikey</td><td><a href="https://www.digikey.se/short/qnn40qp2">house</a></td><td><a href="https://www.digikey.se/short/hw3zhd3j">house</a></td></tr><tr><td>Farnell</td><td><a href="https://se.farnell.com/molex/52266-0211/connector-housing-plug-2pos/dp/2284346">house</a></td><td><a href="https://se.farnell.com/molex/52213-0211/connector-housing-rcpt-2pos/dp/2284343">house</a></td></tr></tbody></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Crimp</th><th>Male 501478000 / 501478100</th><th>Female 501478000 / 501478100</th></tr></thead><tbody><tr><td>Mouser</td><td><a href="https://www.mouser.se/ProductDetail/Molex/50147-8100?qs=%2Fha2pyFadujnY9k%2F4ENB05H6f6IqHNUKPBz2xSFomJg%3D">501478000</a> / <a href="https://www.mouser.se/ProductDetail/Molex/50147-8100?qs=/ha2pyFadujnY9k/4ENB05H6f6IqHNUKPBz2xSFomJg=">501478100</a></td><td><a href="https://www.mouser.se/Search/Refine?Keyword=501478000">501478000</a> / <a href="https://www.mouser.se/ProductDetail/Molex/50148-8100?qs=%2Fha2pyFadugbVLr7o5XIXnBDatzMDj4N%252BkehEBzk0l4%3D">501478100</a></td></tr><tr><td>Elfa</td><td><a href="https://www.elfa.se/en/crimp-terminal-male-tin-20-22awg-molex-50147-8000/p/14418724">501478000</a> / <a href="https://www.elfa.se/en/crimp-terminal-male-tin-20-22awg-molex-50147-8100/p/30065159">501478100</a></td><td><a href="https://www.elfa.se/en/crimp-terminal-male-tin-20-22awg-molex-50147-8000/p/14418724">501478000</a> / <a href="https://www.elfa.se/en/crimp-terminal-male-tin-20-22awg-molex-50147-8100/p/30065159">501478100</a></td></tr><tr><td>Digikey</td><td><a href="https://www.digikey.se/products/sv?keywords=501478000">501478000</a> / <a href="https://www.digikey.se/products/sv?keywords=501478100">501478100</a></td><td><a href="https://www.digikey.se/products/sv?keywords=501478000">501478000</a> / <a href="https://www.digikey.se/products/sv?keywords=501478100">501478100</a></td></tr><tr><td>Farnell</td><td><a href="https://se.farnell.com/search?st=501478000">501478000</a> / <a href="https://se.farnell.com/molex/50147-8100/contact-pin-20awg-crimp/dp/3107274">501478100</a></td><td><a href="https://se.farnell.com/search?st=501478000">501478000</a> / <a href="https://se.farnell.com/molex/50147-8100/contact-pin-20awg-crimp/dp/3107274">501478100</a></td></tr></tbody></table>
+<p><strong>Specs</strong></p>
+<ul>
+<li>Maximum Number of Circuits - 2,3 or 4</li>
+<li>Wire gauge - 20-22AWG</li>
+<li>Current - Maximum per Contact 4.0A</li>
+<li>Max. voltage - 125V</li>
+<li>Temperature Range - Operating -40°C to +105°C</li>
+<li>Flammability - 94V-0</li>
+<li>IP rating - IP67</li>
+<li>Material - Resin Polyester</li>
+</ul>
+<h2 id="fuse-box"><a aria-hidden="true" class="anchor-heading" href="#fuse-box"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Fuse Box</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Name</th><th>Aptiv</th><th>Waytek</th><th>Mouser</th><th>Image</th></tr></thead><tbody><tr><td>Housing</td><td>12059573</td><td><a href="https://www.waytekwire.com/item/38076/Aptiv-12059573-Metri-Pack-280-Series-6-Way/">38076</a></td><td><a href="https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/12059573?qs=%2Fha2pyFadujwxwQwxO%252BnOp6dpIX4OxN5B6R0knN7Do8%3D">829-12059573</a></td><td><img src="/electricity/assets/images/2021-03-19-14-39-18.png#thumbnail"></td></tr><tr><td>Cap Tall</td><td></td><td><a href="https://www.waytekwire.com/item/38079/Extended-Clear-Cap-for-Splice-Pack-System-38079/">38079</a></td><td>N/A</td><td><img src="/electricity/assets/images/2021-03-19-14-52-09.png#thumbnail"></td></tr><tr><td>Terminal</td><td>12077411</td><td><a href="https://www.waytekwire.com/item/30037/Aptiv-12077411-Metri-Pack-Female-Tanged/">30037</a></td><td><a href="https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/12077411-L?qs=DlE0rdXB%2FL0DXgDs8GPLbg%3D%3D">829-12077411</a></td><td><img src="/electricity/assets/images/2021-03-19-14-54-54.png#thumbnail"></td></tr><tr><td>Seal</td><td>15324982</td><td><a href="https://www.waytekwire.com/item/39000/Aptiv-15324982-Metri-Pack-280/">39000</a></td><td><a href="https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/15324982?qs=%2Fha2pyFaduiCsbKAemWTGsXfg0%2FZmpSrvSLzTcMMsZw%3D">829-15324982</a></td><td><img src="/electricity/assets/images/2021-03-19-14-56-42.png#thumbnail"></td></tr><tr><td>Tpa</td><td>12059195</td><td><a href="https://www.waytekwire.com/item/38077/Aptiv-12059195-Metri-Pack-280-Series-6-Contact/">38077</a></td><td><a href="https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/12059195?qs=sGAEpiMZZMvlX3nhDDO4APW7j5MP5o6q5HgYqFD2vmA%3D">829-12059195</a></td><td><img src="/electricity/assets/images/2021-03-19-14-59-53.png#thumbnail"></td></tr><tr><td>Bracket Offset Screw</td><td>15495826</td><td><a href="https://www.waytekwire.com/item/38084/Aptiv-15495826-Offset-Mounting-Clip/">38084</a></td><td><a href="https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/15495826?qs=%2Fha2pyFadugkgPIRWrgmz6zjAU9oXJqmQobALfcQBZQ%3D">829-15495826</a></td><td><img src="/electricity/assets/images/2021-03-19-15-01-12.png#thumbnail"></td></tr><tr><td>Bracket straight clip</td><td>15495796</td><td><a href="https://www.waytekwire.com/item/38080/Aptiv-15495796-Straight-In-Mounting-Clip/">38080</a></td><td><a href="https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/15495796?qs=%2Fha2pyFaduhhA9DyAm2Uw8Autf6zTkJgn4VAloMwVgE%3D">829-15495796</a></td><td><img src="/electricity/assets/images/2021-03-19-15-02-28.png#thumbnail"></td></tr><tr><td>Bracket 90 degree clip</td><td>15495810</td><td><a href="https://www.waytekwire.com/item/38081/Aptiv-15495810-90-Degree-In-Mounting-Clip/">38081</a></td><td><a href="https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/15495810?qs=%2Fha2pyFaduiPpyB03Kgg7QbK2KYR3nfv8T5mkpbvwMw%3D">829-15495810</a></td><td><img src="/electricity/assets/images/2021-03-19-15-03-52.png#thumbnail"></td></tr><tr><td>Bracket Tree</td><td>12110783</td><td><a href="https://www.waytekwire.com/item/38082/Aptiv-12110783-Tree-Mount-Clip/">38082</a></td><td><a href="https://www.mouser.se/ProductDetail/Aptiv-formerly-Delphi/12110783?qs=sGAEpiMZZMvlX3nhDDO4APW7j5MP5o6q3zMUSxI4KS0%3D">829-12110783</a></td><td><img src="/electricity/assets/images/2021-03-19-15-05-15.png#thumbnail"></td></tr></tbody></table>
+<p>Cap Tall -- Bara US? <a href="https://www.us-wire-harness.com/locations/">https://www.us-wire-harness.com/locations/</a>
+Printa -- <a href="https://www.waytekwire.com/datasheet/38078.jpg">https://www.waytekwire.com/datasheet/38078.jpg</a></p>
+<h2 id="dyna-2000i"><a aria-hidden="true" class="anchor-heading" href="#dyna-2000i"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Dyna 2000i</h2>
+<p><img src="/electricity/assets/images/2021-03-26-09-03-01.png#medium"></p>
+<h4 id="spark-plug-wires"><a aria-hidden="true" class="anchor-heading" href="#spark-plug-wires"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Spark plug wires</h4>
+<ul>
+<li><strong>Use</strong>: Any type of carbon suppression core spark plug wires. The factory Harley wires should work fine.</li>
+<li><strong>Don't use</strong>: Solid core or spiral core type plug wires.</li>
+</ul>
+<h4 id="coil"><a aria-hidden="true" class="anchor-heading" href="#coil"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Coil</h4>
+<p>For all dual fire and single fire applications, you must use coils that have a primary resistance of 2.5 to 3.5 ohms.</p>
+<h4 id="power"><a aria-hidden="true" class="anchor-heading" href="#power"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Power</h4>
+<p>The white wire can be connected to any source of swtiched +12V.</p>
+<h2 id="velona-80"><a aria-hidden="true" class="anchor-heading" href="#velona-80"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Velona 80</h2>
+<p><img src="/electricity/assets/images/2021-03-26-08-59-21.png#medium"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Description</th><th>Volts / Amps</th></tr></thead><tbody><tr><td>Input voltage</td><td>13.5V</td></tr><tr><td>Stepper motor and backlight</td><td>~75ma</td></tr><tr><td>Indicator light (each)</td><td>7ma</td></tr></tbody></table>
+<p>Links:</p>
+<p><a href="https://ebikes.ca/learn/connectors.html">https://ebikes.ca/learn/connectors.html</a></p>
+<p><a href="http://www.cycleterminal.com/">http://www.cycleterminal.com/</a></p>
+<p><a href="https://www.aliexpress.com/item/32543090000.html?spm=a2g0o.detail.1000023.13.13353cc9u9w04E">https://www.aliexpress.com/item/32543090000.html?spm=a2g0o.detail.1000023.13.13353cc9u9w04E</a></p>
+<p><a href="https://www.aliexpress.com/item/32861105223.html">https://www.aliexpress.com/item/32861105223.html</a></p>
+<h2 id="relay"><a aria-hidden="true" class="anchor-heading" href="#relay"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Relay</h2>
+<p>Starter Relay 20A?</p>
+<p><a href="https://www.mouser.se/ProductDetail/Song-Chuan/303-1AH-S-D1-12VDC?qs=Z9twEOuL%252B%2FI3EzaNjfzKCA%3D%3D">https://www.mouser.se/ProductDetail/Song-Chuan/303-1AH-S-D1-12VDC?qs=Z9twEOuL%252B%2FI3EzaNjfzKCA%3D%3D</a></p>
+<h2 id="wiring-diagram"><a aria-hidden="true" class="anchor-heading" href="#wiring-diagram"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Wiring diagram</h2>
+<p><img src="/electricity/assets/images/2021-04-06-11-20-12.png#medium"></p>
+<h2 id="ohms-law"><a aria-hidden="true" class="anchor-heading" href="#ohms-law"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Ohms law</h2>
+<p><img src="/electricity/assets/images/2021-04-06-10-57-24.png"></p><span id="navId" data="786f5d3a-5876-4314-8639-ad96b06e8d79"></span>
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+                
+              </div>
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+</body>
+</html>
